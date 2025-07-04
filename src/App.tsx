@@ -1,7 +1,6 @@
 // src/App.tsx
-import React, { useState } from 'react';
 import './App.css';
-
+import { useState, useCallback, useEffect } from 'react';
 function App() {
   // State variables to manage input values and generated password
   const [totalLength, setTotalLength] = useState(12);
